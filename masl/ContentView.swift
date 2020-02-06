@@ -7,11 +7,18 @@
 //
 
 import SwiftUI
+//import IntuneMAMSwift
 
 struct ContentView: View {
+    #if canImport(IntuneMAMSwift)
+    var body: some View {
+        Text("Can import IntuneMAMSwift!")
+    }
+    #else
     var body: some View {
         Text("Hello, World!")
     }
+    #endif
 }
 
 struct ContentView_Previews: PreviewProvider {

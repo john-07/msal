@@ -24,6 +24,7 @@
 		CB295BD623EC6090007F3934 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CB295BD923EC6090007F3934 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CB295BDB23EC6090007F3934 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB295BE123EC623A007F3934 /* IntuneMAMSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IntuneMAMSwift.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +41,7 @@
 		CB295BC123EC608E007F3934 = {
 			isa = PBXGroup;
 			children = (
+				CB295BE123EC623A007F3934 /* IntuneMAMSwift.framework */,
 				CB295BCC23EC608E007F3934 /* masl */,
 				CB295BCB23EC608E007F3934 /* Products */,
 			);
@@ -288,6 +290,10 @@
 				DEVELOPMENT_ASSET_PATHS = "\"masl/Preview Content\"";
 				DEVELOPMENT_TEAM = M3KJ3WBD2L;
 				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = masl/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -308,6 +314,10 @@
 				DEVELOPMENT_ASSET_PATHS = "\"masl/Preview Content\"";
 				DEVELOPMENT_TEAM = M3KJ3WBD2L;
 				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = masl/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
